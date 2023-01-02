@@ -15,6 +15,9 @@ body{
     margin-top: 200px;
     cursor: pointer;
 }
+#draw-el:disabled{
+    cursor:not-allowed;
+}
 #cont-el{
     display: grid;
     margin-top: -27px;

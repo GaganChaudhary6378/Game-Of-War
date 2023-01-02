@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    background-image: url("/360_F_322485076_wuZ8D5R9biTRNSGJMWZBor9uUcO1Md59.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow:hidden; */
+}
+#draw-el{
+    background-color: yellow;
+    width: 100%;
+    height: 5vh;
+    font-weight: bold;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 200px;
+    cursor: pointer;
+}
+#cont-el{
+    display: grid;
+    margin-top: -27px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 25vh;
+    color: white;
+}
+#new-deck{
+    margin-top: 10px;
+    cursor: pointer;
+    width: 20vh;
+    height: 4vh;
+    background-color: yellow;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#war{
+    color: white;
+    padding-left: 45%;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+#container2{
+    display: flex;
+    justify-content: space-between;
+}
+#comp-score{
+    color: white;
+    padding-left: 11%;
+}
+#human-score{
+    color: white;
+    padding-right:17%;
+}
+
+#img-el1{
+    height:315px;
+    margin-top: 2%;
+    margin-left: 8%;
+    width: 225px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#img-el2{
+    height:315px;
+    margin-top: 2%;
+    margin-right: 10%;
+    width: 225px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
